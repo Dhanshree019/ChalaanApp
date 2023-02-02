@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "247044973516",
+    "firebase_url": "https://chalaan-ebb70.firebaseio.com",
+    "project_id": "chalaan-ebb70",
+    "storage_bucket": "chalaan-ebb70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247044973516:android:acc161b18e09fc430e3369",
+        "android_client_info": {
+          "package_name": "com.example.chalaan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247044973516-aue4onhg2kgdnh1mm804esh6e1jusgf7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chalaan",
+            "certificate_hash": "413399fe13e82f4bf9f52a0cf3383e85e880adbf"
+          }
+        },
+        {
+          "client_id": "247044973516-br85n1ivco2gb1h2402oi722upepbntc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUCNMwXfGtwYajgnE7Woaxl8AQC1aieb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247044973516-br85n1ivco2gb1h2402oi722upepbntc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

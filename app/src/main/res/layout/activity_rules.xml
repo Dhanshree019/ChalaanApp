@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rules">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="1700dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="444dp"
+        android:paddingBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="27dp"
+            android:text="Stop"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_alignStart="@+id/tv_title"
+            android:layout_alignLeft="@id/tv_title"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="Red light signal is for you to stop on the marked line and not beyond that. "
+            android:textColor="@color/content_text_color" />
+
+
+
+        <TextView
+
+            android:id="@+id/text_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="118dp"
+            android:text="Give Way"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_description2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_title2"
+            android:layout_alignStart="@+id/text_title2"
+            android:layout_alignLeft="@id/text_title2"
+            android:layout_marginStart="-1dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="It’s your responsibility to give free passage to ambulances and fire service vehicles. "
+            android:textColor="@color/content_text_color" />
+
+        <TextView
+
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="201dp"
+            android:text="Driving Without License"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_title"
+            android:layout_alignStart="@+id/text_title"
+            android:layout_alignLeft="@id/text_title"
+            android:layout_marginStart="-1dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="This rule is for those people who are driving without license. "
+            android:textColor="@color/content_text_color" />
+
+        <TextView
+
+            android:id="@+id/text_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="286dp"
+            android:text="Speed Limit"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/text_description3"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_title3"
+            android:layout_alignStart="@+id/text_title3"
+            android:layout_alignLeft="@id/text_title3"
+            android:layout_marginStart="-1dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="Designates the speed,of traffic on road. The limit specified must be followed to avoid penal action and accidents on the road."
+            android:textColor="@color/content_text_color" />
+
+        <TextView
+
+            android:id="@+id/tv_title4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="394dp"
+            android:text="Prohibition of Drink and Drive"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tv_description4"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title4"
+            android:layout_alignStart="@+id/tv_title4"
+            android:layout_alignLeft="@id/tv_title4"
+            android:layout_marginStart="-1dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="Driving under the influence of alcohol or other intoxicating substance is prohibited "
+            android:textColor="@color/content_text_color" />
+
+        <TextView
+
+            android:id="@+id/tv_title6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="489dp"
+            android:text="Wear Helmet"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tv_description6"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title4"
+            android:layout_alignStart="@+id/tv_title4"
+            android:layout_alignLeft="@id/tv_title4"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="105dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="Always a helmet while riding a two-wheeler, and ensure your pillion wears a helmet too. Make sure the helmet is ISI certified as any deviation will lead to penalties for traffic violations."
+            android:textColor="@color/content_text_color" />
+
+        <TextView
+
+            android:id="@+id/tv_title7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="636dp"
+            android:text="Wear Seatbelt"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_description7"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title4"
+            android:layout_alignStart="@+id/tv_title4"
+            android:layout_alignLeft="@id/tv_title4"
+            android:layout_marginStart="-1dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="245dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="For four-wheeler users, it’s essential to wear the seatbelt, this holds good for both the driver, the co-driver and other passengers."
+            android:textColor="@color/content_text_color" />
+
+        <TextView
+
+            android:id="@+id/tv_title8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="745dp"
+            android:text="Do Not Use Mobile Phone"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_description8"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title4"
+            android:layout_alignStart="@+id/tv_title4"
+            android:layout_alignLeft="@id/tv_title4"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="361dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="Using a mobile phone while driving or riding might lead to an accident. It’s mandatory not to use phones while driving or riding."
+            android:textColor="@color/content_text_color"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+
+            android:id="@+id/tv_title9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="854dp"
+            android:text="No Stopping Or Standing"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_description9"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title4"
+            android:layout_alignStart="@+id/tv_title4"
+            android:layout_alignLeft="@id/tv_title4"
+            android:layout_marginStart="-1dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="Some roads demand continuous flow of traffic and stopping of one vehicle disrupt the whole traffic flow."
+            android:textColor="@color/content_text_color"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+
+            android:id="@+id/tv_title10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="946dp"
+            android:text="Vehicles Prohibited On Both Directions"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_description10"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title4"
+            android:layout_alignStart="@+id/tv_title4"
+            android:layout_alignLeft="@id/tv_title4"
+            android:layout_marginStart="-2dp"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginTop="565dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="This sign directs that the demarcated area beyond it is prohibited for traffic flow from both sides. "
+            android:textColor="@color/content_text_color"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+
+            android:id="@+id/tv_title11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="1042dp"
+            android:text="No Parking"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_description11"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title4"
+            android:layout_alignStart="@+id/tv_title4"
+            android:layout_alignLeft="@id/tv_title4"
+            android:layout_marginStart="-1dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="653dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="It prohibits parking of a vehicle in designated area.Therefore, drivers should park their vehicle in authorized parking areas only."
+            android:textColor="@color/content_text_color"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+
+            android:id="@+id/tv_title12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="1157dp"
+            android:text="No Entry"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_description12"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title4"
+            android:layout_alignStart="@+id/tv_title4"
+            android:layout_alignLeft="@id/tv_title4"
+            android:layout_marginStart="-1dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="778dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="Certain pockets of an area or road are demarcated as no entry areas for traffic. This could be entry to a restricted area or no traffic zone. So the driver should obey it and divert his route."
+            android:textColor="@color/content_text_color"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+
+            android:id="@+id/tv_title13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="1304dp"
+            android:text="Right Turn Prohibited"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_description13"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title4"
+            android:layout_alignStart="@+id/tv_title4"
+            android:layout_alignLeft="@id/tv_title4"
+            android:layout_marginStart="-2dp"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginTop="924dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="This sign directs driver not to turn towards right side in any circumstance."
+            android:textColor="@color/content_text_color"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+
+            android:id="@+id/tv_title14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="1398dp"
+            android:text="Left Turn Prohibited"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_description14"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title4"
+            android:layout_alignStart="@+id/tv_title4"
+            android:layout_alignLeft="@id/tv_title4"
+            android:layout_marginStart="-1dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="1015dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="This sign directs driver not to turn towards left side in any circumstance."
+            android:textColor="@color/content_text_color"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+
+            android:id="@+id/tv_title15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="1494dp"
+            android:text="Horn Prohibited"
+            android:textColor="@color/title_text_color"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_description15"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title4"
+            android:layout_alignStart="@+id/tv_title4"
+            android:layout_alignLeft="@id/tv_title4"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1114dp"
+            android:layout_marginRight="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="However there are silence zones where honking is completely prohibited like near hospitals, schools etc. This sign directs driver to respect the silence zone and not to use horn."
+            android:textColor="@color/content_text_color"
+            tools:ignore="DuplicateIds" />
+
+        <ImageView
+            android:id="@+id/img_user"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/stop"
+            tools:layout_editor_absoluteX="3dp" />
+
+        <ImageView
+            android:id="@+id/img_user2"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="119dp"
+            app:srcCompat="@drawable/give_way"
+            tools:layout_editor_absoluteX="4dp" />
+
+        <ImageView
+            android:id="@+id/img_user3"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="199dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/license"
+            tools:layout_editor_absoluteX="4dp"
+            />
+
+        <ImageView
+            android:id="@+id/img_user4"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="284dp"
+            app:srcCompat="@drawable/speed_limit"
+            tools:layout_editor_absoluteX="4dp" />
+
+        <ImageView
+            android:id="@+id/img_user5"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="384dp"
+            app:srcCompat="@drawable/drink_and_drive"
+            tools:layout_editor_absoluteX="3dp" />
+
+        <ImageView
+            android:id="@+id/img_user6"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="487dp"
+            app:srcCompat="@drawable/helmet"
+            tools:layout_editor_absoluteX="3dp" />
+
+        <ImageView
+            android:id="@+id/img_user7"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="637dp"
+            app:srcCompat="@drawable/seatbelt"
+            tools:layout_editor_absoluteX="3dp" />
+
+        <ImageView
+            android:id="@+id/img_user8"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="747dp"
+            app:srcCompat="@drawable/mobile"
+            tools:layout_editor_absoluteX="3dp" />
+
+
+        <ImageView
+            android:id="@+id/img_user9"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="849dp"
+            app:srcCompat="@drawable/no_stopping_standing"
+            tools:layout_editor_absoluteX="3dp" />
+
+
+        <ImageView
+            android:id="@+id/img_user10"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="947dp"
+            app:srcCompat="@drawable/one_way"
+            tools:layout_editor_absoluteX="3dp" />
+
+        <ImageView
+            android:id="@+id/img_user11"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="1037dp"
+            app:srcCompat="@drawable/no_parking"
+            tools:layout_editor_absoluteX="3dp" />
+
+        <ImageView
+            android:id="@+id/img_user12"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="1157dp"
+            app:srcCompat="@drawable/no_entry"
+            tools:layout_editor_absoluteX="3dp" />
+
+
+        <ImageView
+            android:id="@+id/img_user13"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="1299dp"
+            app:srcCompat="@drawable/right_turn_prohibited"
+            tools:layout_editor_absoluteX="3dp" />
+
+        <ImageView
+            android:id="@+id/img_user14"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="1393dp"
+            app:srcCompat="@drawable/left_turn_prohibited"
+            tools:layout_editor_absoluteX="3dp" />
+
+        <ImageView
+            android:id="@+id/img_user15"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="1490dp"
+            app:srcCompat="@drawable/horn"
+            tools:layout_editor_absoluteX="3dp" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
